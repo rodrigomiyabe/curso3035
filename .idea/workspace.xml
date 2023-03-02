@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e854bfe7-7196-4072-864d-2f4f3d760813" name="Changes" comment="Exercicios do Modulo 1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso3035Teach.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/Exercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/Exercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/Exercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/Exercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Scan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/Exercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/Exercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/Exercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/Exercicio4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Exercicio4">
     <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicios.Exercicio1" />
@@ -118,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677687504490</updated>
       <workItem from="1677687505547" duration="12784000" />
+      <workItem from="1677763463028" duration="188000" />
     </task>
     <servers />
   </component>

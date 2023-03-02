@@ -20,9 +20,9 @@ public class Exercicio2 implements Scan {
         System.out.println("Digite o valor total de votos validos");
         validos = sc.nextInt();
 
-        calculoBrancos = (votosBrancos / numTotalEleitores) * 100;
-        calculoNulos = (nulos / numTotalEleitores) * 100;
-        calculoValido = (validos / numTotalEleitores) * 100;
+        calculoBrancos = (votosBrancos * numTotalEleitores) / 100;
+        calculoNulos = (nulos * numTotalEleitores) / 100;
+        calculoValido = (validos * numTotalEleitores) / 100;
 
         System.out.println("Porcentagem de votos em branco: " + calculoBrancos + "%");
         System.out.println("Porcentagem de votos nulos: " + calculoNulos + "%");

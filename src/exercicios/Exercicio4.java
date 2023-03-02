@@ -5,30 +5,30 @@ import util.Scan;
 public class Exercicio4 implements Scan {
 
     public static void main(String[] args) {
-        Integer atk, def, evol;
+        Integer ataque, defesa, evolucao;
         Double calculaPoder;
 
         System.out.println("Digite o nivel de ataque do personagem");
-        atk = sc.nextInt();
-        while (atk > 0 && atk > 10) {
+        ataque = sc.nextInt();
+        while (ataque > 0 && ataque > 10) {
             System.out.println("Ataque inválido! Digite outro valor.");
-            atk = sc.nextInt();
+            ataque = sc.nextInt();
         }
 
         System.out.println("Digite o nivel de defesa do personagem");
-        def = sc.nextInt();
-        while (def > 0 && def > 10) {
+        defesa = sc.nextInt();
+        while (defesa > 0 && defesa > 10) {
             System.out.println("Ataque inválido! Digite outro valor.");
-            def = sc.nextInt();
+            defesa = sc.nextInt();
         }
 
         System.out.println("Digite o nivel de capacidade de evolução do personagem");
-        evol = sc.nextInt();
-        while (evol > 0 && evol > 10) {
+        evolucao = sc.nextInt();
+        while (evolucao > 0 && evolucao > 10) {
             System.out.println("Ataque inválido! Digite outro valor.");
-            evol = sc.nextInt();
+            evolucao = sc.nextInt();
         }
-        calculaPoder = (atk * 0.45) + (def * 0.35) + (evol * 0.2);
+        calculaPoder = (ataque * 0.45) + (defesa * 0.35) + (evolucao * 0.2);
 
         if (calculaPoder > 8.0) {
             System.out.println("Personagem especial: Poder " + calculaPoder);
